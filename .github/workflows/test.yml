@@ -31,7 +31,7 @@ jobs:
           windows: echo "test2"
           windowsShell: cmd
 
-      - uses: Madrona-Games/os-specific-run@main
+      - uses: lethek/os-specific-run@main
         with:
           macos: echo "Hi from macos"
           linux: |
@@ -39,7 +39,7 @@ jobs:
             echo "Hi from linux second line"
           windows: echo "Hi from windows"
 
-      - uses: Madrona-Games/os-specific-run@main
+      - uses: lethek/os-specific-run@main
         with:
           macos: echo "test2"
           linux: echo "test2"
